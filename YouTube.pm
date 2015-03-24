@@ -200,9 +200,6 @@ sub upload_v2 {
         <optional: bool for private>, <optional: bool for noembed>)"
         unless ( $file && $filename && $title && $description && $keywords && $type );
 
-  # my $file = "/home/fnjiru/Heavy-Rains-Cause-Flooding-in-Morocco.mp4";
-  # my $filename = "Heavy-Rains-Cause-Flooding-in-Morocco.mp4";
-
   my $boundary  = "AllAfica-YouTubeAPI-Boundary";
   my $content_type  = "multipart/related; boundary=$boundary";
 
