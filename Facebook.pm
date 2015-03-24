@@ -32,8 +32,8 @@ Custom API to Facebook
 =head1 GLOBALS
 
 my $pages = {
-  en => "337624666389574",
-  fr => "337624666389574",
+  en => "",
+  fr => "",
 };
 
 my $app_id => "",
